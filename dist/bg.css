@@ -1,0 +1,29 @@
+#wrapperx{
+    height:100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
+  .containerx{
+    position:relative;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  .backgroundx{
+    transform: translateZ(-40px) scale(5);
+  }
+  
+  .foregroundx{
+    transform: translateZ(-20px) scale(3);
+  }
+  
+  .backgroundx, .foregroundx{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+  }
