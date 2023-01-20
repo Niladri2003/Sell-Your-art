@@ -9,6 +9,8 @@
 .bg-header {
   background: url(bg-12.jpg) center center no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  
 }
 
 .bg-quote {

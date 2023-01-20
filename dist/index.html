@@ -57,48 +57,54 @@
 
     <title>Sell Your Art</title>
   </head>
-  <body class="mt-20">
-    <!-- <header class="">
-        <nav class="flex justify-between items-center w-[92%]  mx-auto mt-4">
-            <div>
-                <img class="w-2 lg:w-44 cursor-pointer " src="LOGO-removebg-preview.png" alt="...">
+  <body class="">
+    <header class="bg-green-100">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto pt-2">
+            <div class="flex lg:space-x-4 space-x-2">
+                <img class="lg:w-10 pb-2 w-10   lg:visible cursor-pointer " src="creativity.png" alt="...">
+                <span class="font-semibold text-lg mt-2 mb-2">Sell Your Creativity</span>
             </div>
             <div
-                class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[35vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-1">
+                class="nav-links duration-500 md:static absolute  md:min-h-fit min-h-[35vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-1">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
                         <a class="hover:text-gray-500 font-semibold lg:text-lg " href="#Home">Home</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500 font-semibold lg:text-lg" href="#">About</a>
+                        <a class="hover:text-gray-500 font-semibold lg:text-lg" href="#Categories">Categories</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500 font-semibold lg:text-lg" href="#Services">Services</a>
+                        <a class="hover:text-gray-500 font-semibold lg:text-lg" href="#Community">Community</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500 font-semibold lg:text-lg " href="#Cources">Cources</a>
+                        <a class="hover:text-gray-500 font-semibold lg:text-lg " href="#FAQ">FAQ</a>
                     </li>
-                    <li><a href="login_page/joinus.html">
-                         <a class="hover:text-gray-500 font-semibold lg:text-lg" href="#">JOIN US</a> 
-                        <button class="bg-cyan-500 p-1 font-semibold rounded-lg hover:bg-cyan-400" >JOIN US</button>
+                    <li><a target="_blank" href="join artwork.html">
+                       
+                        <button class="bg-green-300 p-1 font-semibold rounded-lg hover:bg-cyan-400" >SignUp</button>
                       </a>
                     </li>
                 </ul>
             </div>
-              <div class="flex items-center gap-6 mt-4">
-                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button> 
-                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
-            </div>
-    </header>  -->
+          
+          <!-- <div class="flex items-center gap-6 mt-4">
+             <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button> -->
+             <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+         </div>
+              
+    </header> 
 
     <!-- image slider  -->
+    <section id="Home">
     <header class="bg-header flex items-center justify-center h-screen pb-12">
       <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
-        <p class="italic text-sm">November 1, 2019</p>
-        <h1 class="text-5xl uppercase">Article Title</h1>
-        <p class="text-lg">Author Name</p>
+        <p class="italic text-base">Lets </p>
+        <h1 class="lg:text-5xl text-xl uppercase">Sell Your Creativity</h1>
+        <p class="text-lg"></p>
       </div>
     </header>
+  </section>
+    <section id="Categories">
     <!-- Categorie section -->
     <div
       class="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5"
@@ -108,32 +114,32 @@
       </p>
     </div>
     <!-- categories -->
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
       <div class="flex items-center justify-center mb-4 m-5">
         <div
-          class="rounded-lg justify-center text-center border-solid border-zinc-700 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl border-2"
+          class="rounded-lg justify-center text-center border-b-4 border-solid border-sky-500 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
         >
           <img
-            class="lg:w-56 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:rounded-md ml-7 border-2"
-            src="flower-g76816f885_1280.jpg"
+            class="lg:w-56 w-32 ml-16 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:ml-20 md:rounded-md border-2"
+            src="drawing b.png"
             height="200"
             alt=""
           />
 
           <div class="p-1 mt-2">
             <h5 class="text-gray-900 text-lg lg:text-xl font-semibold mb-2">
-              System Desigin
+              Art Collection
             </h5>
             <p class="text-gray-700 w- font-base mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus, distinctio?
             </p>
-            <a href="join artwork.html">
+            <a href="art store.html">
               <button
                 type="button"
-                class="lg:text-base md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="lg:text-base lg:mb-5 mb-4 md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-cyan-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Check
+                View
               </button></a
             >
           </div>
@@ -142,18 +148,18 @@
       <!-- card -2 -->
       <div class="flex items-center justify-center mb-4 m-5">
         <div
-          class="rounded-lg justify-center text-center border-solid border-zinc-700 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl border-2"
+          class="rounded-lg justify-center text-center border-b-4 border-green-600 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
         >
           <img
-            class="lg:w-56 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:rounded-md ml-7 border-2"
-            src="flower-g76816f885_1280.jpg"
+            class="lg:w-56 w-32 ml-16 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:ml-20 md:rounded-md border-2"
+            src="photography.png"
             height="200"
             alt=""
           />
 
           <div class="p-1 mt-2">
             <h5 class="text-gray-900 text-lg lg:text-xl font-semibold mb-2">
-              System Desigin
+              photographs
             </h5>
             <p class="text-gray-700 w- font-base mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -162,85 +168,22 @@
             <a href="photographstore.html">
               <button
                 type="button"
-                class="lg:text-base md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="lg:text-base lg:mb-5 mb-5 md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
-                Check
+                View
               </button></a
             >
           </div>
         </div>
       </div>
     </div>
-    <!-- cards end -->
-    <div class="grid grid-cols-2 gap-4">
-      <!-- card-3 -->
-      <div class="flex items-center justify-center mb-4 m-5">
-        <div
-          class="rounded-lg justify-center text-center border-solid border-zinc-700 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl border-2"
-        >
-          <img
-            class="lg:w-56 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:rounded-md ml-7 border-2"
-            src="flower-g76816f885_1280.jpg"
-            height="200"
-            alt=""
-          />
-
-          <div class="p-1 mt-2">
-            <h5 class="text-gray-900 text-lg lg:text-xl font-semibold mb-2">
-              System Desigin
-            </h5>
-            <p class="text-gray-700 w- font-base mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, distinctio?
-            </p>
-            <a href="join artwork.html">
-              <button
-                type="button"
-                class="lg:text-base md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Check
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- card-4 -->
-      <div class="flex items-center justify-center mb-4 m-5">
-        <div
-          class="rounded-lg justify-center text-center border-solid border-zinc-700 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl border-2"
-        >
-          <img
-            class="lg:w-56 lg:rounded-sm lg:ml-44 md:w-28 md:mt-3 md:rounded-md ml-7 border-2"
-            src="flower-g76816f885_1280.jpg"
-            height="200"
-            alt=""
-          />
-
-          <div class="p-1 mt-2">
-            <h5 class="text-gray-900 text-lg lg:text-xl font-semibold mb-2">
-              System Desigin
-            </h5>
-            <p class="text-gray-700 w- font-base mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, distinctio?
-            </p>
-            <a href="join artwork.html">
-              <button
-                type="button"
-                class="lg:text-base md:mt-4 md:mr-3 inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Check
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- all cards are ended -->
+  </section>
 
     <!-- Artwork submit -->
     <div class="text-center justify-center items-center my-4 bg-lime-100 h-96">
-      <p class="text-black font-semibold text-5xl mx-4 mb-0 pt-36">
+      <p
+        class="text-black font-semibold lg:text-5xl md:text-4xl text-xl mx-4 mb-0 pt-36"
+      >
         Create Your Portfolio
       </p>
       <p>
@@ -249,7 +192,7 @@
       </p>
       <button
         type="button"
-        class="lg:text-base lg:mt-4 px-8 py-2.5 bg-lime-600 text-white font-medium text-xs leading-tight uppercase rounded-3xl shadow-md hover:bg-lime-700 hover:shadow-lg focus:bg-lime-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="lg:text-base lg:mt-4 mt-8 px-8 py-2.5 bg-lime-600 text-white font-medium text-xs leading-tight uppercase rounded-3xl shadow-md hover:bg-lime-700 hover:shadow-lg focus:bg-lime-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
       >
         Submit Your ArtWork
       </button>
@@ -259,6 +202,7 @@
     </div>
 
     <!-- Community -->
+    <section id="Community" >
     <div class="container mx-auto lg:p-5">
       <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-4">
         <!-- card-1 -->
@@ -267,7 +211,7 @@
             class="text-start bg-slate-100 rounded-lg justify-evenly border-b-4 border-solid border-green-600 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
           >
             <div class="lg:m-8">
-              <div class="w-40 mr-8">
+              <div class="w-40 mr-8 p-3">
                 <img
                   class="object-contain h-24"
                   src="support.png"
@@ -275,7 +219,7 @@
                   srcset=""
                 />
               </div>
-              <div class="mr-4">
+              <div class="mr-4 p-1">
                 <div class="p-1 mt-2">
                   <h5
                     class="text-gray-900 text-lg lg:text-xl font-semibold mb-2"
@@ -301,7 +245,7 @@
             class="text-start bg-slate-100 rounded-lg justify-evenly border-b-4 border-solid border-yellow-600 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
           >
             <div class="lg:m-8">
-              <div class="w-40 mr-8">
+              <div class="w-40 mr-8 p-3">
                 <img
                   class="object-contain h-24"
                   src="social-media.png"
@@ -309,7 +253,7 @@
                   srcset=""
                 />
               </div>
-              <div class="mr-4">
+              <div class="mr-4 p-1">
                 <div class="p-1 mt-2">
                   <h5
                     class="text-gray-900 text-lg lg:text-xl font-semibold mb-2"
@@ -338,7 +282,7 @@
             class="text-start bg-slate-100 rounded-lg justify-evenly border-b-4 border-solid border-teal-500 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
           >
             <div class="lg:m-8">
-              <div class="w-40 mr-8">
+              <div class="w-40 mr-8 p-3">
                 <img
                   class="object-contain h-24"
                   src="paint-palette.png"
@@ -346,7 +290,7 @@
                   srcset=""
                 />
               </div>
-              <div class="mr-4">
+              <div class="mr-4 p-2">
                 <div class="p-1 mt-2">
                   <h5
                     class="text-gray-900 text-lg lg:text-xl font-semibold mb-2"
@@ -369,10 +313,10 @@
         <!-- card-4 -->
         <div class="flex items-center justify-center mb-4 m-5">
           <div
-            class="text-start bg-slate-100 rounded-lg justify-evenly border-b-2 border-solid border-violet-700 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
+            class="text-start bg-slate-100 rounded-lg justify-evenly border-b-4 border-solid border-teal-500 lg:hover:shadow-xl hover:rounded-lg hover:shadow-xl"
           >
             <div class="lg:m-8">
-              <div class="w-40 mr-8">
+              <div class="w-40 mr-8 p-3">
                 <img
                   class="object-contain h-24"
                   src="bid.png"
@@ -380,7 +324,7 @@
                   srcset=""
                 />
               </div>
-              <div class="mr-4">
+              <div class="mr-4 p-2">
                 <div class="p-1 mt-2">
                   <h5
                     class="text-gray-900 text-lg lg:text-xl font-semibold mb-2"
@@ -402,6 +346,7 @@
         </div>
       </div>
     </div>
+  </section>
     <!-- FaQ Section  -->
     <!-- component -->
 
@@ -411,7 +356,7 @@
       }
     </style>
 
-    <body>
+   
       <article id="the-article">
         <div>
           <div class="mx-auto max-w-6xl">
@@ -422,10 +367,7 @@
                     <div class="text-3xl text-green-400 mb-8">
                       Frequently asked questions.
                     </div>
-                    <div class="mb-2">Lorem Ipsum ?</div>
-                    <div class="text-xs text-gray-600">
-                      See our FAQ for more details
-                    </div>
+                    
 
                     <div class="relative text-gray-600 mt-8 lg:mr-16">
                       <input
@@ -474,7 +416,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, illum.
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -518,7 +460,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -562,7 +504,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eius voluptatibus. Quia!
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -606,7 +548,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                          Lorem ipsum, dolor sit amet consectetur adipisicing.
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -650,7 +592,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime.
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -694,7 +636,7 @@
                         <h4
                           :class="{'text-green-400 font-medium' : isOpen == true}"
                         >
-                          Lorem Ipsum ?
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, itaque.
                         </h4>
                         <svg
                           :class="{'transform rotate-180' : isOpen == true}"
@@ -774,15 +716,16 @@
           };
         }
       </script>
-    </body>
+    
     <!-- FaQ Section  -->
     <div
       class="border-t-2 border-gray-300 bg-slate-200 flex flex-col md:flex-row md:justify-between text-center py-5 text-sm lg:mt-20"
     >
       <div class="mb-4">
-        <a href="#" class="mx-2.5">About</a>
-        <a href="#" class="mx-2.5">Privacy Policy</a>
-        <a href="#" class="mx-2.5">Terms of Services</a>
+        <a href="#Home" class="mx-2.5">Home</a>
+        <a href="#Categories" class="mx-2.5">Categorie</a>
+        <a href="#Community" class="mx-2.5">Community</a>
+        <a href="#FAQ" class="mx-2.5">FAQ</a>
       </div>
       <p>&copy; Copyright Reserved 2021</p>
     </div>
