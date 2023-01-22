@@ -13,6 +13,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
@@ -34,20 +38,22 @@
         <div class="relative mt-20 mb-20">
           <img
             id="image"
-            class="w-full h-full mt-48"
-            src="/dist/ARTS/p.4-0.webp"
+            class="w-full h-full mt-48 p-10"
+            src="/dist/photo store/photocard/images/p-2.3.jpg"
             alt=""
           />
           <div
             class="arrows w-full absolute inset-y-1/2 flex justify-between px-3"
           >
-            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="" id="prev">
+              <i class="bi bi-arrow-left"></i>
+            </button>
             <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
         <div class="space-y-5 p-5 ml-36">
           <h4 class="text-xl font-semibold">Title</h4>
-          <h1 class="text-3xl font-bold">Indian Lady</h1>
+          <h1 class="text-3xl font-bold">Payson Temple Photograph</h1>
           <h2 class="text-xl font-bold">₹56124</h2>
           <p class="text-sm">Description</p>
           <p class="text-sm w-96">
@@ -103,15 +109,16 @@
   </body>
   <script>
     const images = [
-      "/dist/ARTS/src/p.4-0.webp",
-      "/dist/ARTS/src/p.4-0.webp",
-      "/dist/ARTS/src/p.4-0.webp",
-      "/dist/ARTS/src/p.4-0.webp",
+      "/dist/photo store/photocard/images/p-2.1.jpg",
+      "/dist/photo store/photocard/images/p-2.2.jpg",
     ];
     const prev = document.getElementById("prev");
     const next = document.getElementById("next");
     let image = document.getElementById("image");
     let slide = 0;
+    var current = 1;
+    var total = 4;
+    var time;
 
     next.addEventListener("click", () => {
       slide++;
@@ -128,5 +135,12 @@
       }
       image.src = images[slide];
     });
+    function imageChanger() {
+      time = setTimeout("change()", 5000);
+    }
+    function changeimage() {
+      current++;
+      if (current > total) currPic = 1;
+    }
   </script>
 </html>
